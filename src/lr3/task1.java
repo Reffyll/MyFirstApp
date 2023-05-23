@@ -8,6 +8,7 @@ public class task1 {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите целое число от 1 до 7");
         int x = in.nextInt();
+
         if (x > 7 | x < 1){
             System.out.println("введено некорректное значение");
         }

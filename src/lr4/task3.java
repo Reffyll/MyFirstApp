@@ -11,12 +11,12 @@ public class task3 {
         int height = id.nextInt();
         System.out.print("Введите ширину прямоугольника: ");
         int width = id.nextInt();
-        int z = 0; //переменная для вывода количества строк
+        int z = 0;
         int [][] rectangle = new int [height][width];
         DecimalFormat dF = new DecimalFormat("00");
 
         for (int i = 0; i < height; i++){
-            for (int j = 0; j <width; j++){
+            for (int j = 0; j < width; j++){
                 rectangle[i][j] = 2;
             }
         }

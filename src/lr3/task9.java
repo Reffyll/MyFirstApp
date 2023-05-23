@@ -16,9 +16,9 @@ public class task9 {
         Random random = new Random();
         int[] ints = new int[size];
         for (int i = 0; i < ints.length; i++){
-            int x = 0;
-            x = random.nextInt( 100);
-            ints[i] = x;
+//            int x = 0;
+//            x = random.nextInt( 100);
+            ints[i] = random.nextInt( 100);
         }
         System.out.println(Arrays.toString(ints));
         int min = ints[0];
